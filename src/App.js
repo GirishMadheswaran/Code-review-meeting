@@ -11,6 +11,7 @@ class App extends Component{
     render(){
         return(
             <>
+                <h1>hi I am Girish</h1>
                 <Router>
                     <Header />
                     <MernContent />
