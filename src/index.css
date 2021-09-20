@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
+
+#root{
+  height:100%;
+}
+
+.header{
+  text-align: center;
+  background-color: rgb(51, 143, 143);
+}
+
+.footer{
+  text-align: center;
+  background-color:red;
+}
+
+.mernContent{
+  height: 400px;
+  width: 500px;
+  padding: 3rem 2rem 1rem;
+  position: relative;
+  margin: 2rem auto;
+  box-shadow: 0 1rem 1rem rgb(15, 7, 7);
+  border-radius: 2rem;
+  background-color: rgb(61, 121, 61);
+}
+  
+.mernContent img{
+  height: 200px;
+  width: 200px;
+}
+.reactContent{
+  height: 400px;
+  width: 500px;
+  padding: 3rem 2rem 1rem;
+  position: relative;
+  margin: 2rem auto;
+  box-shadow: 0 1rem 1rem rgb(15, 7, 7);
+  border-radius: 2rem;
+  background-color: rgb(182, 182, 95);
+}
+  
+.reactContent img{
+  height: 200px;
+  width: 200px;
+}
+
+.mongoContent{
+  height: auto;
+  width: 500px;
+  padding: 3rem 2rem 1rem;
+  position: relative;
+  margin: 2rem auto;
+  box-shadow: 0 1rem 1rem rgb(15, 7, 7);
+  border-radius: 1rem;
+  background-color: rgb(182, 182, 95);
+
+}
+  
+.mongoContent img{
+  height: 200px;
+  width: 200px;
+}
+
+.expressContent{
+  height: auto;
+  width: 500px;
+  padding: 3rem 2rem 1rem;
+  position: relative;
+  margin: 2rem auto;
+  box-shadow: 0 1rem 1rem rgb(15, 7, 7);
+  border-radius: 1rem;
+  background-color: rgb(182, 182, 95);
+
+}
+  
+.expressContent img{
+  height: 200px;
+  width: 200px;
+}
+
+.nodeContent{
+  height: auto;
+  width: 500px;
+  padding: 3rem 2rem 1rem;
+  position: relative;
+  margin: 2rem auto;
+  box-shadow: 0 1rem 1rem rgb(15, 7, 7);
+  border-radius: 1rem;
+  background-color: rgb(182, 182, 95);
+
+}
+  
+.nodeContent img{
+  height: 200px;
+  width: 200px;
+}
+
+.button{
+  color: white;
+  cursor: pointer;
+}
