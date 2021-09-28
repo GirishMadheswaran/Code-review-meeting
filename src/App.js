@@ -3,9 +3,7 @@ import Header from './Header';
 import MernContent  from './MernContent';
 import Content from './MainContent';
 import Footer from './Footer';
-import { BrowserRouter as Router,Route,} from 'react-router-dom';
-// import MernContent from './MernContent';
-
+import { BrowserRouter as Router,Route} from 'react-router-dom';
 
 class App extends Component{
     render(){
@@ -21,7 +19,5 @@ class App extends Component{
         )
     }
 }
-
-
 
 export default App;
